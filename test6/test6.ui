@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>1024</height>
+   </rect>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>341</width>
+      <height>554</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton::indicator {
+	width: 80px;
+	height: 80px;
+}
+
+QRadioButton::indicator::unchecked {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:hover {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:pressed {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::checked {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+QRadioButton::indicator::checked:hover {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+
+QRadioButton::indicator::checked:pressed {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Lamp 1</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton::indicator {
+	width: 80px;
+	height: 80px;
+}
+
+QRadioButton::indicator::unchecked {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:hover {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:pressed {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::checked {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+QRadioButton::indicator::checked:hover {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+
+QRadioButton::indicator::checked:pressed {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Lamp 2</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton::indicator {
+	width: 80px;
+	height: 80px;
+}
+
+QRadioButton::indicator::unchecked {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:hover {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:pressed {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::checked {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+QRadioButton::indicator::checked:hover {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+
+QRadioButton::indicator::checked:pressed {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Buzzer</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QRadioButton::indicator {
+	width: 80px;
+	height: 80px;
+}
+
+QRadioButton::indicator::unchecked {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:hover {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::unchecked:pressed {
+	image: url(/home/eo/images/toggle-button-off.png);
+}
+
+QRadioButton::indicator::checked {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+QRadioButton::indicator::checked:hover {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+
+QRadioButton::indicator::checked:pressed {
+	image: url(/home/eo/images/toggle-button-on.png);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Alarm Led</string>
+       </property>
+       <property name="autoExclusive">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>120</y>
+      <width>171</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../images/baby.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>290</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>--.--</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>601</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgb(0, 162, 232);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;
+background-color: rgb(0, 162, 232);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>71</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(/home/eo/images/heater-res.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>180</y>
+      <width>100</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	height: 80px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(143, 143, 143);
+	border-radius: 10px;
+}
+
+QPushButton:pressed{
+	background-color: rgb(143, 143, 143);
+}</string>
+    </property>
+    <property name="text">
+     <string>Prewarm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">height: 80px;
+width: 80px;</string>
+    </property>
+    <property name="text">
+     <string>%25</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>260</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-down.png);
+}
+
+QPushButton:pressed{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-down-psv.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-up.png);
+}
+
+QPushButton:pressed{
+	height: 80px;
+    width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-up-psv.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">height: 80px;
+width: 80px;</string>
+    </property>
+    <property name="text">
+     <string>36</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>100</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-up.png);
+}
+
+QPushButton:pressed{
+	height: 80px;
+    width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-up-psv.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>260</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-down.png);
+}
+
+QPushButton:pressed{
+	height: 80px;
+	width: 80px;
+	border-style: solid;
+	border-width: 0px;
+	image: url(/home/eo/images/swipe-down-psv.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>70</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SET (°C)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
