@@ -1,4 +1,6 @@
 # OpenBed
+### Linux Based Infant Radiant Warmer Project
 
-images path : /home/eo/
-test6  path : /home/eo/qt
+- Images  : Stock images folder.
+- OpenBed : Project main folder and ui files.
+- Scripts : Bash sc for integrating external i2c devices.
